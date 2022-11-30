@@ -6,12 +6,10 @@ import java.sql.SQLException;
 import java.util.Properties;
 
 public class ConnectionUtil {
-    private static final String URL =
-            "jdbc:mysql://bvarri8v2ci4hg75jh09-mysql.services.clever-cloud.com:"
-                    + "3306/bvarri8v2ci4hg75jh09";
-    private static final String USERNAME = "uxwzqqj4semxfwhd";
-    private static final String PASSWORD = "gKHlWzhh2CEZC7wYhSIN";
-    private static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
+    private static final String URL = "URL";
+    private static final String USERNAME = "USER NAME";
+    private static final String PASSWORD = "PASSWORD";
+    private static final String JDBC_DRIVER = "JDBC DRIVER";
 
     static {
         try {
